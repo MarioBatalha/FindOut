@@ -43,7 +43,7 @@
     ?>    
     <tbody>
       <tr>
-        <th scope="row">img</th>
+        <th scope="row"><?php echo $Fetch['img'];?></th>
         <th scope="row"><?php echo $Fetch['Nome'];?></th>
         <td><?php echo $Fetch['area'];?></td>
         <td><?php echo $Fetch['tutela'];?></td>

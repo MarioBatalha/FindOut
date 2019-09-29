@@ -27,6 +27,7 @@
         $local = $Fetch['local'];
         $descricao = $Fetch['descricao'];
         $rotas = $Fetch['rotas'];
+        $img = $Fetch['img'];
     }
     //Cadastro de dados
     else{
@@ -37,6 +38,7 @@
         $local = "";
         $descricao = "";
         $rotas = "";
+        $img = "";
     }
 ?> 
 <div class="jumbotron">
@@ -71,6 +73,11 @@
         <div class="form-group col-md-6">
         <label for="inputCity">Rotas</label>
         <input type="text" name="rotas" class="form-control" id="rotas" placeholder="Rotas possiveis" value="<?php echo $rotas; ?>">
+        </div>
+        <div class="form-group col-md-6">
+        <label for="inputCity">Imagem</label>
+        <input type="file" name="img" class="form-control" id="img" value="<?php echo $img; ?>">
+        </div>>
         </div>
         </div>
         <input type="submit" class="btn btn-primary" value="Cadastrar">

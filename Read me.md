@@ -1,6 +1,9 @@
+<p align="center"><img src="font/img/FindOut.png"></p>
 ## Sobre Find Out
+
 O que é?
 	Find Out é uma aplicação web back-end de código aberto, desenvolvida com o objectivo de minimizar o tempo gasto na procura de serviço ou empresas em angola.
+
 Como funciona? 
 	A aplicação dispõem de 2 módulos que são:
 - Módulo de usuário
@@ -14,6 +17,7 @@ Ferramentas usadas: Bootstrap & PHP
 Obrigado por considerares contribuir na agenda pública
 Como contribuir?
 Acesse o repositório: https://github.com.io/MarioBatalha/FindOut
+Faça o fork para os seus repositórios
 Faça o clone, após concluido a clonagem.
 Faça as alteração que deseja.
 Faça o Pull request e actualiza o repositório. 

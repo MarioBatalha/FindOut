@@ -10,7 +10,6 @@
 <footer class="bg-primary">
   <div class="container text-center">
     <h6> Copyright- Mário Batalha 2019</h6>
-    <button type="button" class="btn"><a href="#"  class="text-dark">Sugestões</a></button>|
     <button type="button" class="btn"><a  href="view/login.php" class="text-dark">Administrador</a></button>
   </div>
 </footer>

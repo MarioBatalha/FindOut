@@ -63,4 +63,29 @@ if(isset($_POST['rotas'])){
 }else{
     $rotas="";
 } 
+//input imagem
+if(isset($_POST['img'])){
+    $img = filter_input(INPUT_POST,'img', FILTER_SANITIZE_SPECIAL_CHARS);
+}elseif(isset($_['img'])){
+    $img = filter_input(INPUT_GET,'img', FILTER_SANITIZE_SPECIAL_CHARS);
+}else{
+    $img ="";
+} 
+//Formulário Login
+//input usuario
+if(isset($_POST['usuario'])){
+    $usuario = filter_input(INPUT_POST,'usuario', FILTER_SANITIZE_SPECIAL_CHARS);
+}elseif(isset($_GET['acao'])){
+    $usuario = filter_input(INPUT_GET,'usuario', FILTER_SANITIZE_SPECIAL_CHARS);
+}else{
+    $usuario="";
+} 
+//input senha
+if(isset($_POST['senha'])){
+    $senha = filter_input(INPUT_POST,'senha', FILTER_SANITIZE_SPECIAL_CHARS);
+}elseif(isset($_GET['senha'])){
+    $senha = filter_input(INPUT_GET,'senha', FILTER_SANITIZE_SPECIAL_CHARS);
+}else{
+    $senha="";
+} 
 ?>
