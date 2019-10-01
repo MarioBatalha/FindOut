@@ -15,7 +15,7 @@
     </button>
   <div class="ml-auto">
     <form class="form-inline my-2 my-lg-0 p-2 bd-highlight" action="view/busca.php">
-      <input class="form-control mr-sm-2" type="search" name="procurar" placeholder="Procurar..." aria-label="Search">
+      <input class="form-control mr-sm-2" type="search" name="search" placeholder="Procurar..." aria-label="Search">
       <button class="btn bg-primary my-2 my-sm-0" type="submit">Pesquisar</button>
     </form>
   </div> 

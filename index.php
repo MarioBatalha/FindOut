@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta charset="UTF-8">
     <link rel="stylesheet" href="font/css/bootstrap.min.css">
-    <link rel="stylesheet" href="font/font awesome/fontawesome.min.css">
+    <link rel="stylesheet" href="font/font awesome/all.css">
     <link rel="stylesheet" href="font/js/bootstrap.min.js">
 </head>
     <title>FindOut</title>
@@ -37,8 +37,7 @@
   include_once("controller/ClassCrud.php"); 
     // Instaciamento da class crud
     $crud = New ClassCrud();
-    $BFetch=$crud->selectDB("*","cadastro","", array());
-        
+    $BFetch=$crud->selectDB("*","cadastro","", array()); 
     while($Fetch=$BFetch->fetch(PDO::FETCH_ASSOC)){
     ?>    
     <tbody>
@@ -50,7 +49,7 @@
         <td><?php echo $Fetch['local'];?></td>
         <td><?php echo $Fetch['descricao'];?></td>
         <th scope="row">
-          <a href="<?php echo "view/visualizar.php?id={$Fetch['id']}"; ?>">Visualizar</a>
+          <a href="<?php echo "view/visualizar.php?id={$Fetch['id']}"; ?>"><i class="fas fa-american-sign-language-interpreting"></i></a>
         </th>
       </tr>
     </tbody>

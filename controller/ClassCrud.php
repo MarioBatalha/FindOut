@@ -42,5 +42,10 @@ Class ClassCrud extends ClassConexao{
         $this->preparedstatements("UPDATE {$tabela} SET {$set} WHERE {$condicao}", $parametros);
         return $this->crud; 
         } 
+    #search na BD
+    Public function searchDB($campos, $tabela, $condicao, $parametros){
+        $this->preparedstatements("SELECT {$campos} FROM {$tabela} {$condicao}", $parametros);
+        return $this->crud;
+    }    
 }                                
 ?>

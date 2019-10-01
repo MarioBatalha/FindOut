@@ -64,13 +64,13 @@ if(isset($_POST['rotas'])){
     $rotas="";
 } 
 //input imagem
-if(isset($_POST['img'])){
+/*if(isset($_POST['img'])){
     $img = filter_input(INPUT_POST,'img', FILTER_SANITIZE_SPECIAL_CHARS);
 }elseif(isset($_['img'])){
     $img = filter_input(INPUT_GET,'img', FILTER_SANITIZE_SPECIAL_CHARS);
 }else{
     $img ="";
-} 
+}*/ 
 //Formulário Login
 //input usuario
 if(isset($_POST['usuario'])){

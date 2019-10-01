@@ -28,9 +28,9 @@
         $descricao = $Fetch['descricao'];
         $rotas = $Fetch['rotas'];
         $img = $Fetch['img'];
-    }
+        $img = $_FILES['img']['nome'];
     //Cadastro de dados
-    else{
+    }else{
         $acao = "cadastrar";
         $Nome = "";
         $area = "";
@@ -76,8 +76,8 @@
         </div>
         <div class="form-group col-md-6">
         <label for="inputCity">Imagem</label>
-        <input type="file" name="img" class="form-control" id="img" value="<?php echo $img; ?>">
-        </div>>
+        <input type="file" name="img" class="form-control" id="img" value="<?php echo "<img src='../font/img/".$row['img']."'>"?>">
+        </div>
         </div>
         </div>
         <input type="submit" class="btn btn-primary" value="Cadastrar">

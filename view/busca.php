@@ -29,7 +29,6 @@
   include_once("../controller/ClassCrud.php"); 
     // Instaciamento da class crud
     $crud = New ClassCrud();
-   $procurar ="%{$_POST['procurar']}%";
     $BFetch=$crud->selectDB("*","cadastro","where nome=?", array());   
     while($Fetch=$BFetch->fetch(PDO::FETCH_ASSOC)){
     ?>   
