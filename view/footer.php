@@ -7,10 +7,12 @@
     <title></title>
 </head>
 <body>
-<footer class="bg-primary">
+<footer>
   <div class="container text-center">
-    <h6> Copyright- Mário Batalha 2019</h6>
-    <button type="button" class="btn"><a  href="view/login.php" class="text-dark">Administrador</a></button>
+    <h6> Copyright &copy MárioBatalha202</h6>
+    <h6>Dev. FullStack</h6>
+    <h6>Luanda - Angola</h6>
+
   </div>
 </footer>
 </body>

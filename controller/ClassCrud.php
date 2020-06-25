@@ -44,8 +44,13 @@ Class ClassCrud extends ClassConexao{
         } 
     #search na BD
     Public function searchDB($campos, $tabela, $condicao, $parametros){
-        $this->preparedstatements("SELECT {$campos} FROM {$tabela} {$condicao}", $parametros);
+        $this->preparedstatements("SELECT FROM {$tabela} {$condicao}", $parametros);
         return $this->crud;
     }    
-}                                
+    #Login
+    Public function loginDB($campos, $tabela, $condicao, $parametros){
+        $this->preparedstatements("SELECT FROM {$tabela} {$condicao}", $parametros);
+        return $this->crud;
+    } 
+  }                                
 ?>

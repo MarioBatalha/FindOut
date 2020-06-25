@@ -1,9 +1,53 @@
 *{
-    font-family: 'Courier New', Courier, monospace;
-    background-color: #292929;
+    font-family: 'lato';
 }
+
+body{
+    font-size: 12px;
+}
+
 .header{
     background-color: red;
     width: 100%;
+
+}
+
+.top-body{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.top-body > div{
+    margin-top: 50px;
+}
+
+#search{
+    background: #E94057;
+    background: -webkit-linear-gradient(to right, #F27121, #E94057); 
+    background: linear-gradient(to right, #F27121, #E94057); 
+
+}
+
+
+h2{
+    font-size: 62px;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+h3{
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+footer{
+    background: #E94057;
+    background: -webkit-linear-gradient(to right, #F27121, #E94057); 
+    background: linear-gradient(to right, #F27121, #E94057); 
 
 }
