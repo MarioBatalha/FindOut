@@ -3,7 +3,7 @@
 class ClassConexao{
     public function connectDB(){
         try{
-            $con=new PDO("mysql:host=localhost;dbname=crud","root","");
+            $con = new PDO("mysql:host=localhost;dbname=FindOut","","");
             return $con;
         }catch (PDOExpection $erro){
             return $erro-> getMessage();
